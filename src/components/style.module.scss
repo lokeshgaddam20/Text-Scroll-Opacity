@@ -1,4 +1,4 @@
-.paragraph{
+.paragraph {
   display: flex;
   font-size: 60px;
   line-height: 1;
@@ -6,14 +6,13 @@
   max-width: 1280px;
   color: white;
   flex-wrap: wrap;
-  .word{
+  .word {
     position: relative;
     margin-right: 12px;
     margin-top: 12px;
-    .shadow{
+    .shadow {
       position: absolute;
       opacity: 20%;
     }
   }
-  
 }

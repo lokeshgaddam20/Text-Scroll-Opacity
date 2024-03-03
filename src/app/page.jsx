@@ -1,4 +1,5 @@
 'use client';
+import styles from './style.module.scss'
 import Paragraph from '@/components/Paragraph';
 import Word from '@/components/Word';
 import Character from '@/components/Character';
@@ -10,8 +11,8 @@ export default function Home() {
   const words = paragraph.split(" ")
   return (
     <main>
-        <div style={{height: "100vh"}}>
-          
+        <div className={styles.div}>
+          <p>Scroll to reveal the <span>Text.</span></p>
         </div>
         <Paragraph paragraph={paragraph}/>
         <div style={{height: "100vh"}}></div>
