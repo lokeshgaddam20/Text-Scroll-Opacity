@@ -19,7 +19,9 @@ export default function Home() {
         <Word paragraph={paragraph}/>
         <div style={{height: "100vh"}}></div>
         <Character paragraph={paragraph} />
-        <div style={{height: "100vh"}}></div>
+        <div className={styles.div}>
+          <p>End of the <span>Page.</span></p>
+        </div>
     </main>
   )
 }
