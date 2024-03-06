@@ -1,9 +1,10 @@
-@font-face {
-  font-family: 'Main';
-  src: url('../../public/PPPangaia-Bold.otf');
-}
-
-body{
-  font-family: 'Main';
+body {
+  font-family: "Avant Garde Book BT";
   background-color: rgb(24, 24, 24);
+}
+@font-face {
+  font-family: 'Avant Garde Book BT';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../public/fonts/AVGARDD_2.woff') format('woff');
 }
